@@ -3,7 +3,7 @@ import random
 import time
 
 tk = Tk()
-
+tk.title("Projeto simples, apenas com o proposito de aprender mais sobre a tkinter")
 tk.resizable(0,0)
 tk.wm_attributes("-topmost",1)
 canvas = Canvas(tk,width=500,height=500,bd=0,highlightthickness=0)
